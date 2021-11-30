@@ -44,6 +44,15 @@ module.exports = {
          ],
        },
      },
-
+     {
+       resolve: `gatsby-plugin-google-fonts`,
+       options: {
+         fonts: [
+           `titillium web\:300,400,500,700,900`,
+           `signika negative\:300,300i,400,400i,500,500i`,
+         ],
+         display: "swap",
+       }
+     }
   ],
 }
